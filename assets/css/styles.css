@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+p,
+h1,
+h2,
+div {
+    font-family: "Abel", sans-serif !important;
+}
+body {
+    background-color: white;
+}
+
+p,
+b {
+    font-size: x-large;
+    font-weight: 300;
+}
+
+
+.footer-copyright {
+    bottom: 0 !important;
+}
