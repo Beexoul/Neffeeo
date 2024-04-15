@@ -1,10 +1,8 @@
 const countdown = () => {
     const countDate = new Date("April 18, 2024 12:00:00").getTime();
-
     const currentTime = new Date().getTime();
     console.log(currentTime);
     const gap = countDate - currentTime;
-
     const millisecond = 1;
     const second = millisecond * 1000;
     const minutes = second * 60;
